@@ -11,6 +11,15 @@
 		3E230F4A2A61E04A00C03D5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E230F492A61E04A00C03D5F /* ContentView.swift */; };
 		3E230F4C2A61E04B00C03D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E230F4B2A61E04B00C03D5F /* Assets.xcassets */; };
 		3E230F4F2A61E04B00C03D5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E230F4E2A61E04B00C03D5F /* Preview Assets.xcassets */; };
+		3E230F572A62135700C03D5F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E230F562A62135700C03D5F /* Profile.swift */; };
+		3E40D7A82A6AFD7B00F73A59 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E40D7A72A6AFD7B00F73A59 /* MotionManager.swift */; };
+		3E90F5602A671EAE00228780 /* temporizador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E90F55F2A671EAE00228780 /* temporizador.swift */; };
+		3E90F5642A69F37A00228780 /* MenuContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E90F5632A69F37A00228780 /* MenuContent.swift */; };
+		3E90F5662A69F3A300228780 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E90F5652A69F3A300228780 /* SideMenu.swift */; };
+		3E90F5682A69F3C900228780 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E90F5672A69F3C900228780 /* MenuItem.swift */; };
+		3E90F56C2A69F4C800228780 /* ConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E90F56B2A69F4C800228780 /* ConfigurationView.swift */; };
+		3E90F5742A6A2A0700228780 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 3E90F5732A6A2A0700228780 /* Sounds */; };
+		3E90F5762A6A2BFB00228780 /* soundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E90F5752A6A2BFB00228780 /* soundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,17 @@
 		3E230F492A61E04A00C03D5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E230F4B2A61E04B00C03D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E230F4E2A61E04B00C03D5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E230F562A62135700C03D5F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		3E40D7A72A6AFD7B00F73A59 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		3E4D8E1F2A6A513500DDC797 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		3E4D8E202A6A51AA00DDC797 /* a.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = a.caf; sourceTree = "<group>"; };
+		3E90F55F2A671EAE00228780 /* temporizador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temporizador.swift; sourceTree = "<group>"; };
+		3E90F5632A69F37A00228780 /* MenuContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContent.swift; sourceTree = "<group>"; };
+		3E90F5652A69F3A300228780 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		3E90F5672A69F3C900228780 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		3E90F56B2A69F4C800228780 /* ConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationView.swift; sourceTree = "<group>"; };
+		3E90F5732A6A2A0700228780 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		3E90F5752A6A2BFB00228780 /* soundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,12 @@
 		3E230F462A61E04A00C03D5F /* temporizador */ = {
 			isa = PBXGroup;
 			children = (
+				3E90F55E2A671E8700228780 /* Models */,
+				3E230F552A62132700C03D5F /* Views */,
 				3E230F472A61E04A00C03D5F /* temporizadorApp.swift */,
 				3E230F492A61E04A00C03D5F /* ContentView.swift */,
+				3E4D8E202A6A51AA00DDC797 /* a.caf */,
+				3E90F5732A6A2A0700228780 /* Sounds */,
 				3E230F4B2A61E04B00C03D5F /* Assets.xcassets */,
 				3E230F4D2A61E04B00C03D5F /* Preview Content */,
 			);
@@ -65,6 +89,29 @@
 				3E230F4E2A61E04B00C03D5F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E230F552A62132700C03D5F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E230F562A62135700C03D5F /* Profile.swift */,
+				3E90F5632A69F37A00228780 /* MenuContent.swift */,
+				3E90F5652A69F3A300228780 /* SideMenu.swift */,
+				3E90F56B2A69F4C800228780 /* ConfigurationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E90F55E2A671E8700228780 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E90F55F2A671EAE00228780 /* temporizador.swift */,
+				3E90F5672A69F3C900228780 /* MenuItem.swift */,
+				3E90F5752A6A2BFB00228780 /* soundPlayer.swift */,
+				3E40D7A72A6AFD7B00F73A59 /* MotionManager.swift */,
+				3E4D8E1F2A6A513500DDC797 /* 1.wav */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E90F5742A6A2A0700228780 /* Sounds in Resources */,
 				3E230F4F2A61E04B00C03D5F /* Preview Assets.xcassets in Resources */,
 				3E230F4C2A61E04B00C03D5F /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E90F5762A6A2BFB00228780 /* soundPlayer.swift in Sources */,
+				3E40D7A82A6AFD7B00F73A59 /* MotionManager.swift in Sources */,
 				3E230F4A2A61E04A00C03D5F /* ContentView.swift in Sources */,
+				3E90F56C2A69F4C800228780 /* ConfigurationView.swift in Sources */,
+				3E90F5602A671EAE00228780 /* temporizador.swift in Sources */,
+				3E90F5662A69F3A300228780 /* SideMenu.swift in Sources */,
+				3E230F572A62135700C03D5F /* Profile.swift in Sources */,
+				3E90F5682A69F3C900228780 /* MenuItem.swift in Sources */,
+				3E90F5642A69F37A00228780 /* MenuContent.swift in Sources */,
 				3E230F482A61E04A00C03D5F /* temporizadorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"temporizador/Preview Content\"";
-				DEVELOPMENT_TEAM = 8CMHJXN83D;
+				DEVELOPMENT_TEAM = D462T289FP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -296,7 +352,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"temporizador/Preview Content\"";
-				DEVELOPMENT_TEAM = 8CMHJXN83D;
+				DEVELOPMENT_TEAM = D462T289FP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
