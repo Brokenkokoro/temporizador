@@ -56,7 +56,7 @@ struct Profile: View {
                     }
                     
                     HStack {
-                        Text("La aplicación fue algo sencilla, lamentablemente estuve bastante ocupado y la realice en los ultimos 3 dias antes de la fecha final de entrega, lo mas complicado fue iniciar el temporizador al poner el iphone en una mesa ya que no habia relizado algun proyecto anterior con ese tipo de implementaciones.")
+                        Text("La aplicación fue algo sencilla, lamentablemente estuve bastante ocupado y la realice en los ultimos 3 dias antes de la fecha final de entrega, el audio por alguna razon no quiere funcionar, ya intente de todo, pero voy a salir de viaje de momento le envio asi las demas funciones estan bien, no le puse icono ni imagen de perfil, quedo atento a su respuesta o de menos un feedback, gracias.")
                             
                             .font(.system(size: 20))
                             .foregroundColor(.black)
